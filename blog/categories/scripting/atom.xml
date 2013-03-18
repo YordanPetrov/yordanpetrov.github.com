@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Scripting | Yordan Petrov @ blogland]]></title>
   <link href="http://YordanPetrov.github.com/blog/categories/scripting/atom.xml" rel="self"/>
   <link href="http://YordanPetrov.github.com/"/>
-  <updated>2013-03-18T12:39:52+00:00</updated>
+  <updated>2013-03-18T12:40:40+00:00</updated>
   <id>http://YordanPetrov.github.com/</id>
   <author>
     <name><![CDATA[Yordan Petrov]]></name>
@@ -18,9 +18,7 @@
     <link href="http://YordanPetrov.github.com/blog/2013/03/18/why-scripting-languages-should-be-encouraged-for-university-courseworks/"/>
     <updated>2013-03-18T12:26:00+00:00</updated>
     <id>http://YordanPetrov.github.com/blog/2013/03/18/why-scripting-languages-should-be-encouraged-for-university-courseworks</id>
-    <content type="html"><![CDATA[<p>Why scripting languages should be encouraged for university courseworks?</p>
-
-<p>During their time at university students often have to do courseworks. More often than not those courseworks involve a coding element. Whether it will be designing a model, simulating a technical concept or implementing an algorithm, a choice about the implementation and the programming language to be used needs to be made. Sometimes, this choice is made by the lecturer, but there are times when this is not the case and when it comes down to the students to decide. What I think is that not only should students choose scripting programming languages for most of their tasks, but also that lecturers should encourage their usage, too. My opinion expands on the topic of transition from system to scripting programming explored in John K. Ousterhout's article – <strong>Scripting: Higher-Level Programming for the 21st Century</strong>[1].</p>
+    <content type="html"><![CDATA[<p>During their time at university students often have to do courseworks. More often than not those courseworks involve a coding element. Whether it will be designing a model, simulating a technical concept or implementing an algorithm, a choice about the implementation and the programming language to be used needs to be made. Sometimes, this choice is made by the lecturer, but there are times when this is not the case and when it comes down to the students to decide. What I think is that not only should students choose scripting programming languages for most of their tasks, but also that lecturers should encourage their usage, too. My opinion expands on the topic of transition from system to scripting programming explored in John K. Ousterhout's article – <strong>Scripting: Higher-Level Programming for the 21st Century</strong>[1].</p>
 
 <p>There has been a heated discussion on which type of language is the better one. In my opinion the answer to this question is that it depends on the case. Hence, I am exploring the case of students and their university work. First, let me briefly explain what are the main differences between the system programming languages and the scripting programming languages[2]. I will focus on three of them, which I believe are the most important ones:</p>
 
