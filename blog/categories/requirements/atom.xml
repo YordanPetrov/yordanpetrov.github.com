@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Requirements | Yordan Petrov @ blogland]]></title>
+  <link href="http://YordanPetrov.github.com/blog/categories/requirements/atom.xml" rel="self"/>
+  <link href="http://YordanPetrov.github.com/"/>
+  <updated>2013-03-18T12:38:38+00:00</updated>
+  <id>http://YordanPetrov.github.com/</id>
+  <author>
+    <name><![CDATA[Yordan Petrov]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[What poor requirements are and how could they impact a project?]]></title>
+    <link href="http://YordanPetrov.github.com/blog/2013/03/18/what-poor-requirements-are-and-how-could-they-impact-a-project/"/>
+    <updated>2013-03-18T12:37:00+00:00</updated>
+    <id>http://YordanPetrov.github.com/blog/2013/03/18/what-poor-requirements-are-and-how-could-they-impact-a-project</id>
+    <content type="html"><![CDATA[<h1>What poor requirements are and how could they impact a project?</h1>
+
+<p>It is a well-known fact that requirements are one of the most important building blocks of every project. Logically, when they are <em>broken</em>, the overall application will be affected as well. This fact is often backed by surveys investigating the main reasons about project failures. In this post I will explore the notion of "poor requirements" by describing what they are and how they could influence the final goal - completing a project successfuly.</p>
+
+<h2>Poor requirements</h2>
+
+<p>Before exploring the concept of a <strong>poor</strong> requirement, we need to define what is the purpose of a requirement. I think this could be described in the following way - a requirement is a mean of narrowing down (or better - constraining) the design choices for a given project. From the exercise we did during <em>Lecture 2</em>[1] (estimating how long building a Java to HTML translator will take), we could see that not specifying the full set of requirements led to a big difference in the different attemps of estimation the least. And estimation is only part of the whole problem. With the simple specification of "Java to HTML translator" many questions about the details are left unanswered, e.g. what technologies should be used, how should invalid inputs be handled, etc. By putting more strict requirements like "The system shall display an error message on invalid inputs", etc., we narrow down the design choices one could make during execution and hence it is more probable for us to end up with the product that is actually desired.</p>
+
+<p><strong>Poor requirements</strong> could be split into three different categories:</p>
+
+<ol>
+<li><strong>Bad</strong> -
+Karl Wiegers[2] defines several characteristics of high quality software requirement statements and specifications as a whole. While single requirements need to be <em>correct</em>, <em>feasible</em>, <em>unambiguous</em>, <em>measurable</em> etc., the set of all requirements (specification) has to be <em>complete</em>, consistent, <em>traceable</em>, etc. All of those qualities prevent <strong>scope creep</strong>, which is one of the leading causes of requirements related failures, from occuring. Based on this, we define <strong>bad</strong> requirements are as ones lacking any of the aforementioned properties. While it is true that there can never be perfect requirements, everyone will agree that better products are achieved using better specifications, i.e. ones having as many of Karl Wiegers's features as possible. For example in the above case from <em>Lecture 2</em> if we have a requirement stating "The system shall be easy to use", then this could be considered as <strong>bad</strong> requirement as this cannot be directly measured.
+<strong>Useless</strong> -
+Useless requirements are those which do not bring any more information which will influence the design decisions. For example, if we have a requirement "the translator should work correctly", then this will be a useless one. The reason for that is this could be inferenced by our definition - noone would want a translator that does not work. This type of requirements seem harmless at first, but fact that they need to be analysed, acknowledged and planned for wastes time, resources and energy.</li>
+<li><strong>Absent</strong> -
+<strong>Absent</strong> requirements are those that are needed but are nonexistent in the specification. In the case when designers are in situation presenting them with the problem of having nonexistent requirements, if they spot this fact, more often than not they will need to make the design choices based on their experience, preferences and time available.</li>
+</ol>
+
+
+<h2>Impact</h2>
+
+<p>Why are poor requirements bad for our software project? To put it simply - the less the quality of the requirements is, the higher the chance that our project will fail (or have serious flaws) will be. Since a project usually consists of roughly two main teams - the technology one and the business one, having poor requirements will affect both of them. Below we explore how each one of them is individually impacted.</p>
+
+<ol>
+<li><strong>Technology team</strong> - There are many problems that the technology team could face, but the main one is probably <strong>late delivery</strong>. Due to the fact that the specification is flawed, every other aspect of the project that is based on it (design, testing, etc.) will deteriorate. When the flaws are uncovered, many parts of a product will need to be revisited and this could most certainly contribute to extending the delivery date. Design is another aspect that weakens as multiple changes are made because of erroneous requirements. When the design is created, it is based on a plethora of factors, patterns and experience and this becomes corrupted with every itteraction caused by an uncovered poor requirement. Lastly -  the quality of the final product is more likely to be bad. The reason behind this is the wasted time which is often spent on testing requirements which are later changed. Testing should be a main priority in a project and as much time as possible should be dedicated to it. However, if the requirements are poor, then this certainbly is not going to be case.</li>
+<li><strong>Business team</strong> - Even a non-expert will notice that all of the aforementioned troubles can stongly impact many parts of the business side of a product. For example, poor quality directly affects the end customers. Then, if customers are affected, so will the profitability and the market share of the product be. Althought none of these consequences can be predicted precisely, what could be predicted is that their effect will not be desired. In terms of the planning side of project, the outcome of having poor requirements will be a prolonged execution process. This, in turn will result in needing a higher final budget (it will be more costly) than predicted.</li>
+</ol>
+
+
+<h2>Conclusion</h2>
+
+<p>Despite the fact that everything I have mentioned so far is true, one should always keep in mind that there is no formulaic way of defining perfect requirements which will work in all situations. The best way to go about writing good requirements is to learn from experience, i.e. the requirements of the problems one has encountered in the past. To sum up, I will borrow a quote from [2]:</p>
+
+<blockquote><p>"..remember that without high quality requirements, software is like a box of chocolates: you never know what you’re going to get."</p></blockquote>
+
+<br>
+
+
+<h2>References:</h2>
+
+<p>[1] http://www.inf.ed.ac.uk/teaching/courses/sapm/2012-2013/project-management.pdf</p>
+
+<br>
+
+
+<p>[2] Writing quality requirements, http://www.processimpact.com/articles/qualreqs.html</p>
+]]></content>
+  </entry>
+  
+</feed>

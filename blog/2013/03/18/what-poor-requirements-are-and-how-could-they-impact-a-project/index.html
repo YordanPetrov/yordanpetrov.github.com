@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Yordan Petrov @ blogland</title>
+  <title>What poor requirements are and how could they impact a project? - Yordan Petrov @ blogland</title>
   <meta name="author" content="Yordan Petrov">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://YordanPetrov.github.com">
+  <link rel="canonical" href="http://YordanPetrov.github.com/blog/2013/03/18/what-poor-requirements-are-and-how-could-they-impact-a-project">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Yordan Petrov @ blogland" type="application/atom+xml">
@@ -63,15 +63,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2013/03/18/what-poor-requirements-are-and-how-could-they-impact-a-project/">What Poor Requirements Are and How Could They Impact a Project?</a></h1>
+      <h1 class="entry-title">What Poor Requirements Are and How Could They Impact a Project?</h1>
     
     
       <p class="meta">
@@ -94,7 +91,7 @@
   </header>
 
 
-  <div class="entry-content"><h1>What poor requirements are and how could they impact a project?</h1>
+<div class="entry-content"><h1>What poor requirements are and how could they impact a project?</h1>
 
 <p>It is a well-known fact that requirements are one of the most important building blocks of every project. Logically, when they are <em>broken</em>, the overall application will be affected as well. This fact is often backed by surveys investigating the main reasons about project failures. In this post I will explore the notion of &#8220;poor requirements&#8221; by describing what they are and how they could influence the final goal - completing a project successfuly.</p>
 
@@ -142,22 +139,16 @@ Useless requirements are those which do not bring any more information which wil
 
 <p>[2] Writing quality requirements, http://www.processimpact.com/articles/qualreqs.html</p>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/03/18/why-scripting-languages-should-be-encouraged-for-university-courseworks/">Why Scripting Languages Should Be Encouraged for University Courseworks?</a></h1>
-    
-    
-      <p class="meta">
-        
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Yordan Petrov</span></span>
+
+      
 
 
 
@@ -169,49 +160,40 @@ Useless requirements are those which do not bring any more information which wil
   
 
 
-<time datetime="2013-03-18T12:26:00+00:00" pubdate data-updated="true">Mar 18<span>th</span>, 2013</time>
-        
-      </p>
+<time datetime="2013-03-18T12:37:00+00:00" pubdate data-updated="true">Mar 18<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/requirements/'>Requirements</a>, <a class='category' href='/blog/categories/software-engineering/'>Software Engineering</a>
+  
+</span>
+
+
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><p>Why scripting languages should be encouraged for university courseworks?</p>
-
-<p>During their time at university students often have to do courseworks. More often than not those courseworks involve a coding element. Whether it will be designing a model, simulating a technical concept or implementing an algorithm, a choice about the implementation and the programming language to be used needs to be made. Sometimes, this choice is made by the lecturer, but there are times when this is not the case and when it comes down to the students to decide. What I think is that not only should students choose scripting programming languages for most of their tasks, but also that lecturers should encourage their usage, too. My opinion expands on the topic of transition from system to scripting programming explored in John K. Ousterhout&#8217;s article – <strong>Scripting: Higher-Level Programming for the 21st Century</strong>[1].</p>
-
-<p>There has been a heated discussion on which type of language is the better one. In my opinion the answer to this question is that it depends on the case. Hence, I am exploring the case of students and their university work. First, let me briefly explain what are the main differences between the system programming languages and the scripting programming languages[2]. I will focus on three of them, which I believe are the most important ones:</p>
-
-<ol>
-<li><p><strong>High-level vs. Low-level</strong>: Scripting languages are higher level compared to system languages in the sense that a single “scripting” statement does more than a single “system” statement. This means that if, for example, each line of code written in a system language is translated into 5 lines of machine code, the respective amount for scripting languages will be in the magnitude of hundreds or thousands. The consequence of this is that the amount of code one needs to write in order to accomplish a task would be much less if they used a scripting language. Moreover, using a high-level language means that the programmer need not worry about detailed control over the program flow and/or memory allocation, since this has already been handled for them.</p></li>
-<li><p><strong>Compiled vs. Interpreted</strong>: System languages are compiled, which means that the code that is written is reduced to a set of machine-specific instructions upfront. On the other hand, scripting languages are usually interpreted, i.e. code is saved in the same format that it is written and it is at runtime that is it translated into machine instructions. In theory, compiled programs run faster as there is no translation happening at runtime and also, it is easier for the compiler to do upfront optimisations. However, the interpreted programs provide more flexibility with that they can modify themselves at runtime by adding or editing functions. The disadvantage imposed by this is that they are not as efficient and fast as the compiled ones. Most of the cases this is easily overcome by the fact that nowadays computers are hundreds of times faster than what they used to be 10 or 20 years ago. The disadvantage which is a result of programs having to be compiled beforehand is the fact that development times are not as rapid as they could be, because of compilation times.</p></li>
-<li><p><strong>Static Typing vs. Dynamic Typing</strong>: System languages are statically typed, which means that the programmer needs to specify how each piece of information is going to be used (e.g. variable needs to be of particular types and hence must be used according to that definition), and the language prevents improper usage of that information. In comparison to that, scripting programming languages are dynamically typed, i.e. the type of an object is decided only at runtime and there is no upfront restriction on how information should be used. While static typing has its advantages – it makes large projects more manageable, helps in early detection of errors and contributes to compiler optimisations, dynamic typing has its advantages, too. It gives more flexibility and freedom when designing a program and it is usually more concise as a lot of boilerplate code could be removed. This leads to shorter code which is not only quicker to write, but also quicker to read and maintain/change.
-How are all those things relevant to the topic and why would students benefit more from using, say, an interpreted, dynamically typed language? In order to answer this, we need to analyse what are the typical problems that students face. Usually, a coursework consists of an isolated problem which is designed such that it could be solved in a relatively short period of time. In this short period, a student is supposed to both do the background reading which will allow them to do the coursework and do the actual implementation. This means that they do not have a great deal of time they could spend on simply writing code. Everyone knows that implementing code is an iterative process, so being able to prototype things quickly is essential. By taking the focus off the actual coding, this allows for more time to be spent on the actual “solving” of the problem. And there is the first important argument – having the ability to quickly write short code that just works will most likely be beneficial for not only getting a coursework done, but also for learning more (since more time is spent on thinking and hence the design process).</p></li>
-</ol>
-
-
-<p>So, following this train of thought, what would be the better choice of programming language – a scripting one or a system one? I believe it is the former. Why? Because as already mentioned, scripting languages are <strong>higher-level</strong> languages. The result of that is that the programmer will be able to express what they want in fewer lines or code and without worrying about low-level details. As a student, I am more interested in getting something to work in the shortest period of time possible, than spending great deal of time sorting out pointers or memory allocations. Moreover, scripting languages are <strong>interpreted</strong>, i.e. compile times are eliminated and hence testing could be done straight away. Some might argue that a language being interpreted leads to a worse performance. While this is true for applications where the execution speed is critical, in the general case this is not a problem, because of the speed of the computers nowadays. And in the general case, the focus of the courseworks is on implementing a given concept or a technique right, rather than implementing it so it runs in the fastest possible way. Moreover, the other advantage that I mentioned earlier (programs can modify themselves at runtime) could be very useful for certain types of problems. Lastly, <strong>dynamic typing</strong>. Many people will argue that this is a bad idea when it comes to large projects which need to be maintained in the future and I will probably agree with them. But as we all know, students assignments are usually not big in size and more often than not their implementations do not exceed a few hundred lines of code. What&#8217;s more, dynamically typed languages give freedom, so the programmer can just focus on getting things done and not worry about types, declarations, etc.</p>
-
-<p>To make it clear – I do not state that using scripting languages in all cases is the best thing to do. Of course, there will be times where system languages will be the preferable choice (due to issues like performance, finer memory control, etc). My argument is that in the general case, students will gain and learn more if they choose to use a scripting language.</p>
-
-<p>References:</p>
-
-<p>[1] Scripting: Higher-Level Programming for the 21st Century, John K Outerhout, Sun Microsystems Laboratories, http://www.stanford.edu/~ouster/cgi-bin/papers/scripting.pdf</p>
-
-<p>[2] By “system languages” I will mean languages like C, Java, C++ and by “scripting languages” I will refer to languages like Python, Ruby, Perl.</p>
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://YordanPetrov.github.com/blog/2013/03/18/what-poor-requirements-are-and-how-could-they-impact-a-project/" data-via="yvpetrov" data-counturl="http://YordanPetrov.github.com/blog/2013/03/18/what-poor-requirements-are-and-how-could-they-impact-a-project/" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/03/18/why-scripting-languages-should-be-encouraged-for-university-courseworks/" title="Previous Post: Why scripting languages should be encouraged for university courseworks?">&laquo; Why scripting languages should be encouraged for university courseworks?</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
 </div>
+
 <aside class="sidebar">
   
     <section>
@@ -232,7 +214,7 @@ How are all those things relevant to the topic and why would students benefit mo
 <section>
   <h1>GitHub Repos</h1>
   <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   
   <a href="https://github.com/YordanPetrov">@YordanPetrov</a> on GitHub
@@ -264,6 +246,7 @@ How are all those things relevant to the topic and why would students benefit mo
 
   
 </aside>
+
 
     </div>
   </div>
