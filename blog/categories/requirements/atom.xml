@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Requirements | Yordan Petrov @ blogland]]></title>
   <link href="http://YordanPetrov.github.com/blog/categories/requirements/atom.xml" rel="self"/>
   <link href="http://YordanPetrov.github.com/"/>
-  <updated>2013-03-18T12:38:38+00:00</updated>
+  <updated>2013-03-18T12:39:52+00:00</updated>
   <id>http://YordanPetrov.github.com/</id>
   <author>
     <name><![CDATA[Yordan Petrov]]></name>
@@ -18,9 +18,7 @@
     <link href="http://YordanPetrov.github.com/blog/2013/03/18/what-poor-requirements-are-and-how-could-they-impact-a-project/"/>
     <updated>2013-03-18T12:37:00+00:00</updated>
     <id>http://YordanPetrov.github.com/blog/2013/03/18/what-poor-requirements-are-and-how-could-they-impact-a-project</id>
-    <content type="html"><![CDATA[<h1>What poor requirements are and how could they impact a project?</h1>
-
-<p>It is a well-known fact that requirements are one of the most important building blocks of every project. Logically, when they are <em>broken</em>, the overall application will be affected as well. This fact is often backed by surveys investigating the main reasons about project failures. In this post I will explore the notion of "poor requirements" by describing what they are and how they could influence the final goal - completing a project successfuly.</p>
+    <content type="html"><![CDATA[<p>It is a well-known fact that requirements are one of the most important building blocks of every project. Logically, when they are <em>broken</em>, the overall application will be affected as well. This fact is often backed by surveys investigating the main reasons about project failures. In this post I will explore the notion of "poor requirements" by describing what they are and how they could influence the final goal - completing a project successfuly.</p>
 
 <h2>Poor requirements</h2>
 
@@ -59,12 +57,8 @@ Useless requirements are those which do not bring any more information which wil
 
 <h2>References:</h2>
 
-<p>[1] http://www.inf.ed.ac.uk/teaching/courses/sapm/2012-2013/project-management.pdf</p>
-
-<br>
-
-
-<p>[2] Writing quality requirements, http://www.processimpact.com/articles/qualreqs.html</p>
+<p>[1] http://www.inf.ed.ac.uk/teaching/courses/sapm/2012-2013/project-management.pdf
+[2] Writing quality requirements, http://www.processimpact.com/articles/qualreqs.html</p>
 ]]></content>
   </entry>
   
