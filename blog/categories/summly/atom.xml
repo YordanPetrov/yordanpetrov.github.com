@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Summly | Yordan Petrov @ blogland]]></title>
+  <link href="http://YordanPetrov.github.com/blog/categories/summly/atom.xml" rel="self"/>
+  <link href="http://YordanPetrov.github.com/"/>
+  <updated>2013-03-27T01:15:59+00:00</updated>
+  <id>http://YordanPetrov.github.com/</id>
+  <author>
+    <name><![CDATA[Yordan Petrov]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[What's actually good about Summly's purchase?]]></title>
+    <link href="http://YordanPetrov.github.com/blog/2013/03/27/whats-actually-good-about-summlys-purchase/"/>
+    <updated>2013-03-27T01:15:00+00:00</updated>
+    <id>http://YordanPetrov.github.com/blog/2013/03/27/whats-actually-good-about-summlys-purchase</id>
+    <content type="html"><![CDATA[<h1>What's actually good about Summly's purchase?</h1>
+
+<p>Everyone seems to be talking now about the recent <a href="http://techcrunch.com/2013/03/25/yahoo-acquires-information-gathering-startup-summly/" title="purchase">purchase</a> of Summly by Yahoo. If you go on <a href="http://ycombinator.com" title="hn">Hacker News</a> there is going to be at least 1 or 2 posts about it on the frontpage. Interestingly, most of the opinions are negative:</p>
+
+<ul>
+<li>The company did not create any NLP itself[1]</li>
+<li>The deal makes no sense[2]</li>
+</ul>
+
+
+<p>.. and so on.</p>
+
+<p>While I do not disagree with those opinions, I think there is something good coming out of this purchase and that is - <strong>motivation</strong>.</p>
+
+<p>What do I mean by that? Well, the more attention the news gets, the more people will find out about it and as a consequence many students will realize that if a 15-year old boy can do it, so can they. And I am not talking about the money here. Instead, I am talking about having the confidence to think big and try to develop something they believe matters. If BBC is to be trusted, Nick D'Aloisio created the initial version of the application (Trimit) in his bedroom[3]. That means that anyone can pursue their idea as long as they have a laptop and an Internet connection.</p>
+
+<p>I am a student and I can see a trend where many of my peers, including me, have ideas and knowledge, but don't have the <strong>courage</strong> to pursue them, so they would rather get a 9-6 job at a big company where they know they're safe. I remember watching a <a href="http://www.youtube.com/watch?v=iG9CE55wbtY" title="talk">talk</a> by Sir Ken Robinson where he says something which is very thought-provoking: <em>"If you are not prepared to be wrong, you will never come up with anything original"</em>. I think this could be re-phrased for the Summly case as<em> "If you don't have the courage to try, you will never come up with anything that can make a change"</em>.
+This is why I hope the news about Summly inspires as many people as possible by showing them that everyone can achieve anything and people should try and not be scared of failure.</p>
+
+<p>I believe inspiration is a great thing and although personally I don't like Nick D'Aloisio (and my impression is based on interviews only), I think his story is quite inspiring.</p>
+
+<p>[1] http://hackingdistributed.com/2013/03/26/summly/</p>
+
+<p>[2] http://philosophically.com/the-summly-deal-makes-no-sense</p>
+
+<p>[3] http://www.bbc.co.uk/news/technology-16315062</p>
+]]></content>
+  </entry>
+  
+</feed>
