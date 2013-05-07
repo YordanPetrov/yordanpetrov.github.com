@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: startup | Yordan Petrov @ blogland]]></title>
+  <link href="http://YordanPetrov.github.com/blog/categories/startup/atom.xml" rel="self"/>
+  <link href="http://YordanPetrov.github.com/"/>
+  <updated>2013-05-07T10:24:28+01:00</updated>
+  <id>http://YordanPetrov.github.com/</id>
+  <author>
+    <name><![CDATA[Yordan Petrov]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[София в AngelHack 2013]]></title>
+    <link href="http://YordanPetrov.github.com/blog/2013/05/07/angelhack/"/>
+    <updated>2013-05-07T10:08:00+01:00</updated>
+    <id>http://YordanPetrov.github.com/blog/2013/05/07/angelhack</id>
+    <content type="html"><![CDATA[<p>Здравейте,</p>
+
+<p>Стефан Адамов <a href="https://twitter.com/adam0f">@adam0f</a> и аз <a href="https://twitter.com/yvpetrov">@yvpetrov</a> проявихме интерес да организираме българско издание на известния хакатон <a href="http://angelhack.com">AngelHack</a>. Ако мислите, че това е нещо, което може да ви заинтересува, ще сме ви благодарни ако подкрепите добавянето на София като една от локациите за AngelHack 2013. Ще можете на направите това <a href="http://angelhackfall.wufoo.com/forms/angelhack-registrations-will-be-open-soon/">тук</a>.</p>
+
+<p>Ако се нуждаете от повече информация може да се свържене с нас чрез Twitter.</p>
+]]></content>
+  </entry>
+  
+</feed>
